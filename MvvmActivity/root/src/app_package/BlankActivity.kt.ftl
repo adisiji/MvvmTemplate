@@ -6,7 +6,7 @@ import ${applicationPackage}.BR
 import ${applicationPackage}.databinding.Activity${Name}Binding
 import ${applicationPackage}.ui.base.BaseActivity
 
-class ${activityName} : BaseActivity<Activity${Name}Binding, ${viewModelName}>(), ${viewName} {
+class ${activityName} : BaseActivity<Activity${Name}Binding, ${viewModelName}>() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)

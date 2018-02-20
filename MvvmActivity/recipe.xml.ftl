@@ -10,11 +10,6 @@
     <instantiate from="res/layout/activity_blank.xml.ftl"
                 to="${escapeXmlAttribute(resOut)}/layout/${escapeXmlAttribute(layoutName)}.xml" />
 
-    <instantiate from="src/app_package/BlankView.kt.ftl"
-                to="${escapeXmlAttribute(srcOut)}/${packName}/${viewName}.kt" />
-
-   	<open file="${escapeXmlAttribute(srcOut)}/${packName}/${viewName}.kt" />
-
     <instantiate from="src/app_package/BlankViewModel.kt.ftl"
                 to="${escapeXmlAttribute(srcOut)}/${packName}/${viewModelName}.kt" />
 

@@ -35,15 +35,6 @@
         help="The name of the layout to create" />
 
     <parameter
-        id="viewName"
-        name="View Interface Name"
-        type="string"
-        constraints="class|nonempty|unique"
-        default="Blank"
-        suggest="${underscoreToCamelCase(fragmentName)}View"
-        help="The name of the view interface to create" />
-
-    <parameter
         id="viewModelName"
         name="View Model Name"
         type="string"

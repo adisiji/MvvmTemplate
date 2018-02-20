@@ -6,7 +6,7 @@ import ${applicationPackage}.BR
 import ${applicationPackage}.databinding.Fragment${Name}Binding
 import ${applicationPackage}.ui.base.BaseFragment
 
-class ${fragmentName} : BaseFragment<Fragment${Name}Binding, ${viewModelName}>(), ${viewName} {
+class ${fragmentName} : BaseFragment<Fragment${Name}Binding, ${viewModelName}>() {
 
   override fun onActivityCreated(savedInstanceState: Bundle?) {
     super.onActivityCreated(savedInstanceState)
